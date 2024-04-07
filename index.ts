@@ -1,6 +1,8 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
+
+console.log("WELCOME TO DATA INPUT APP")
 let answer = await inquirer.prompt(
     [
         {
